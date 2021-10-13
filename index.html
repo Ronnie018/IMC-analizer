@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Maximo</td>
+                        <td>Minimo</td>
+                        <td>Peso</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;</td>
+                        <td>18.5</td>
+                        <td>Abaixo</td>
+                    </tr>
+                    <tr>
+                        <td>18.5</td>
+                        <td>24.9</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>29.9</td>
+                        <td>Acima</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>34.9</td>
+                        <td>Obeso</td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td>39.9</td>
+                        <td>Obesidade II</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&gt;</td>
+                        <td>40</td>
+                        <td>Morbida</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div id="content">
+            <form action="" method="get">
+                <label for="peso">Seu Peso: 
+                    <input type="text" name="peso" id="peso">
+                </label>
+                <label for="altura">Sua altura: 
+                    <input type="text" name="altura" id="altura">
+                </label>
+                <button id="submit" type="button">Submit</button>
+            </form>
+            <div id="resp">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
